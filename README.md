@@ -7,7 +7,7 @@ Sites: [codenlighten.org](https://codenlighten.org) · [smartledger.technology](
 
 ## Start here: one repo per skill
 
-These six were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
+These seven were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
 
 | Skill | Repo | What it shows |
 |---|---|---|
@@ -17,6 +17,7 @@ These six were built as showcase pieces. Each has CI, tests that were checked by
 | Front end and data viz | [data-dashboard](https://github.com/codenlighten/data-dashboard) | React, TypeScript, accessible SVG map and charts over a live public feed, browser tests |
 | AI / LLM tooling | [llm-tooling-lab](https://github.com/codenlighten/llm-tooling-lab) | Tool-use agent loop, cost budgets, response cache, evaluation harness, all testable offline |
 | Debugging method | [root-cause-casebook](https://github.com/codenlighten/root-cause-casebook) | Nine constructed bug cases in five languages: failing test, diagnosis, fix, regression test |
+| Language tooling (Rust + WebAssembly) | [mini-language-lab](https://github.com/codenlighten/mini-language-lab) | A small process language: recovering parser, validator with suggestions, comment-preserving formatter, in a React editor with a diagram |
 
 ## Deeper systems work
 
