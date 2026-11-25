@@ -21,12 +21,18 @@ These nine were built as showcase pieces. Each has CI, tests that were checked b
 | Databases (PostgreSQL) | [postgres-patterns](https://github.com/codenlighten/postgres-patterns) | Seven studies, each demonstrated by tests: constraints, isolation anomalies, a job queue, pagination, indexes, row-level security and safe migrations, with measured results and their limits |
 | Security (verifiable records) | [tamper-evident-log](https://github.com/codenlighten/tamper-evident-log) | A signed, hash-chained log with Merkle checkpoints and an offline verifier, with a table of attacks it detects and the ones it cannot |
 
+## Blockchain (Bitcoin SV)
+
+| Area | Repo | What it is |
+|---|---|---|
+| Protocol primitives | [smartledger-bsv-core](https://github.com/codenlighten/smartledger-bsv-core) | Keys, scripts, transactions and SPV in JavaScript with types. CI replays the reference node's own script test file (bitcoin-sv v1.2.2): all 1483 rows agree, in outcome and in error reason |
+| BSV Script | [scriptmin](https://github.com/codenlighten/scriptmin) | Bitcoin Script minimiser: byte profiler, stack scheduler and superoptimiser |
+| Formal methods | [bsv-lean-proofs](https://github.com/codenlighten/bsv-lean-proofs) | Lean 4 reference semantics, theorems and conformance vectors for a BSV node |
+
 ## Deeper systems work
 
 | Area | Repo | What it is |
 |---|---|---|
 | Rust migration | [node-to-rust-migration-lab](https://github.com/codenlighten/node-to-rust-migration-lab) | Node.js to Rust behind the same API, with a behaviour-parity harness and automatic rollback |
-| BSV Script | [scriptmin](https://github.com/codenlighten/scriptmin) | Bitcoin Script minimiser: byte profiler, stack scheduler and superoptimiser |
-| Formal methods | [bsv-lean-proofs](https://github.com/codenlighten/bsv-lean-proofs) | Lean 4 reference semantics, theorems and conformance vectors for a BSV node |
 
 Many older repos on this account are experiments and forks. The ones above are the ones to judge me by.
