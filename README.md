@@ -7,7 +7,7 @@ Sites: [codenlighten.org](https://codenlighten.org) · [smartledger.technology](
 
 ## Start here: one repo per skill
 
-These seven were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
+These six were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
 
 | Skill | Repo | What it shows |
 |---|---|---|
