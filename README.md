@@ -1,7 +1,7 @@
 # Gregory Ward
 
 **Software engineer: Rust and TypeScript back ends, full-stack web, blockchain tooling, verifiable systems and AI tooling.**
-I take scoped fixes and longer engagements. I find the root cause, fix it and prove the fix with tests.
+I take scoped fixes and longer engagements. I find the root cause, fix it and confirm the fix with a regression test.
 
 Sites: [codenlighten.org](https://codenlighten.org) · [smartledger.technology](https://smartledger.technology)
 
@@ -18,7 +18,7 @@ These nine were built as showcase pieces. Each has CI, tests that were checked b
 | AI / LLM tooling | [llm-tooling-lab](https://github.com/codenlighten/llm-tooling-lab) | Tool-use agent loop, cost budgets, response cache, evaluation harness, all testable offline |
 | Debugging method | [root-cause-casebook](https://github.com/codenlighten/root-cause-casebook) | Nine constructed bug cases in five languages: failing test, diagnosis, fix, regression test |
 | Language tooling (Rust + WebAssembly) | [mini-language-lab](https://github.com/codenlighten/mini-language-lab) | A small process language: recovering parser, validator with suggestions, comment-preserving formatter, in a React editor with a diagram |
-| Databases (PostgreSQL) | [postgres-patterns](https://github.com/codenlighten/postgres-patterns) | Seven studies proved by tests: constraints, isolation anomalies, a job queue, pagination, indexes, row-level security and safe migrations, with measured results and their limits |
+| Databases (PostgreSQL) | [postgres-patterns](https://github.com/codenlighten/postgres-patterns) | Seven studies, each demonstrated by tests: constraints, isolation anomalies, a job queue, pagination, indexes, row-level security and safe migrations, with measured results and their limits |
 | Security (verifiable records) | [tamper-evident-log](https://github.com/codenlighten/tamper-evident-log) | A signed, hash-chained log with Merkle checkpoints and an offline verifier, with a table of attacks it detects and the ones it cannot |
 
 ## Deeper systems work
