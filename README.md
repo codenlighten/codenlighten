@@ -7,7 +7,7 @@ Sites: [codenlighten.org](https://codenlighten.org) · [smartledger.technology](
 
 ## Start here: one repo per skill
 
-These ten were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
+These eleven were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
 
 | Skill | Repo | What it shows |
 |---|---|---|
@@ -21,6 +21,7 @@ These ten were built as showcase pieces. Each has CI, tests that were checked by
 | Databases (PostgreSQL) | [postgres-patterns](https://github.com/codenlighten/postgres-patterns) | Seven studies, each demonstrated by tests: constraints, isolation anomalies, a job queue, pagination, indexes, row-level security and safe migrations, with measured results and their limits |
 | Databases (MongoDB) | [mongodb-patterns](https://github.com/codenlighten/mongodb-patterns) | Eight studies, each demonstrated by tests: validation, modelling, atomic updates, transactions, a job queue, indexes by keys examined, pagination and migrations |
 | Security (verifiable records) | [tamper-evident-log](https://github.com/codenlighten/tamper-evident-log) | A signed, hash-chained log with Merkle checkpoints and an offline verifier, with a table of attacks it detects and the ones it cannot |
+| Security (post-quantum signatures) | [pq-signatures-demo](https://github.com/codenlighten/pq-signatures-demo) | A signing component using a third-party ML-DSA library alongside Ed25519, where both must verify; checked against NIST's test vectors in two libraries, with an attack matrix. A demonstration, not audited |
 
 ## Blockchain
 
