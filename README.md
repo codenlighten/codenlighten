@@ -7,7 +7,7 @@ Sites: [codenlighten.org](https://codenlighten.org) · [smartledger.technology](
 
 ## Start here: one repo per skill
 
-These nine were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
+These ten were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
 
 | Skill | Repo | What it shows |
 |---|---|---|
@@ -19,6 +19,7 @@ These nine were built as showcase pieces. Each has CI, tests that were checked b
 | Debugging method | [root-cause-casebook](https://github.com/codenlighten/root-cause-casebook) | Nine constructed bug cases in five languages: failing test, diagnosis, fix, regression test |
 | Language tooling (Rust + WebAssembly) | [mini-language-lab](https://github.com/codenlighten/mini-language-lab) | A small process language: recovering parser, validator with suggestions, comment-preserving formatter, in a React editor with a diagram |
 | Databases (PostgreSQL) | [postgres-patterns](https://github.com/codenlighten/postgres-patterns) | Seven studies, each demonstrated by tests: constraints, isolation anomalies, a job queue, pagination, indexes, row-level security and safe migrations, with measured results and their limits |
+| Databases (MongoDB) | [mongodb-patterns](https://github.com/codenlighten/mongodb-patterns) | Eight studies, each demonstrated by tests: validation, modelling, atomic updates, transactions, a job queue, indexes by keys examined, pagination and migrations |
 | Security (verifiable records) | [tamper-evident-log](https://github.com/codenlighten/tamper-evident-log) | A signed, hash-chained log with Merkle checkpoints and an offline verifier, with a table of attacks it detects and the ones it cannot |
 
 ## Blockchain
