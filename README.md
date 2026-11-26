@@ -27,7 +27,7 @@ These eleven were built as showcase pieces. Each has CI, tests that were checked
 
 | Area | Repo | What it is |
 |---|---|---|
-| Bitcoin SV primitives | [smartledger-bsv-core](https://github.com/codenlighten/smartledger-bsv-core) | Keys, scripts, transactions and SPV in JavaScript with types. CI replays the reference node's own script test file (bitcoin-sv v1.2.2): all 1483 rows agree, in outcome and in error reason |
+| Bitcoin SV primitives | [smartledger-bsv-core](https://github.com/codenlighten/smartledger-bsv-core) | Keys, scripts, transactions and SPV in JavaScript with types. CI replays the reference node's own script test file (bitcoin-sv v1.2.2): all 1483 rows agree on accept or reject with no wrong error reason (109 of the 600 rejections use a documented, narrower error name) |
 | BSV Script | [scriptmin](https://github.com/codenlighten/scriptmin) | Bitcoin Script minimiser: byte profiler, stack scheduler and superoptimiser |
 | Bitcoin SV formal methods | [bsv-lean-proofs](https://github.com/codenlighten/bsv-lean-proofs) | Lean 4 reference semantics, theorems and conformance vectors for a BSV node |
 | Solidity | [solidity-proof](https://github.com/codenlighten/solidity-proof) | ERC-20, ERC-721 and an upgradeable vault with Hardhat and Foundry tests, fuzzing and invariants, a gas study and static analysis. Demonstration code, not audited |
