@@ -7,12 +7,13 @@ Sites: [codenlighten.org](https://codenlighten.org) · [smartledger.technology](
 
 ## Start here: one repo per skill
 
-These eleven were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
+These twelve were built as showcase pieces. Each has CI, tests that were checked by breaking the code on purpose, and a "Limits" section that says what is not covered.
 
 | Skill | Repo | What it shows |
 |---|---|---|
 | Rust back end | [rust-api-service](https://github.com/codenlighten/rust-api-service) | axum, SQLite, argon2, signed tokens, per-user isolation, problem+json, a measured load test |
 | Node / TypeScript + Postgres | [ts-api-starter](https://github.com/codenlighten/ts-api-starter) | Multi-tenant API, idempotency keys, cursor pagination, a migration runner, tests on a real database |
+| Cloud (AWS, Terraform) | [aws-signing-service](https://github.com/codenlighten/aws-signing-service) | A signing API on a KMS key behind IAM-authorised API Gateway and Lambda, tested without an AWS account and run once on a real one |
 | Full stack and billing | [saas-fullstack-demo](https://github.com/codenlighten/saas-fullstack-demo) | Next.js and Stripe Checkout in test mode, verified and idempotent webhooks |
 | Front end and data viz | [data-dashboard](https://github.com/codenlighten/data-dashboard) · [live demo](https://codenlighten.github.io/data-dashboard/) | React, TypeScript, accessible SVG map and charts over a live public feed, browser tests |
 | AI / LLM tooling | [llm-tooling-lab](https://github.com/codenlighten/llm-tooling-lab) | Tool-use agent loop, cost budgets, response cache, evaluation harness, all testable offline |
